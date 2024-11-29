@@ -7,7 +7,7 @@ pip install ultralytics
 pip install --upgrade ultralytics
 ```
 ```
-git clone git@github.com:ryotaema/auto_annotator.git
+git clone https://github.com/ryotaema/auto_annotator.git
 
 cd auto_annotator
 mkdir -p model/best_of_model
