@@ -6,6 +6,12 @@ This is an automatic annotation code created to recognize green peppers.
 pip install ultralytics
 pip install --upgrade ultralytics
 ```
+```
+git clone git@github.com:ryotaema/auto_annotator.git
+
+cd auto_annotator
+mkdir -p model/best_of_model
+```
 ## 使用方法
 
 1. model_path、image_folder、output_folderのパスを指定する。
