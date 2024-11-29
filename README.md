@@ -17,7 +17,7 @@ mkdir -p model/best_of_model
 1. model_path、image_folder、output_folderのパスを指定する。
  *  model_path   : 学習済みモデルのパス  (ex:best.pt)
  *  image_folder : 推論画像のフォルダパス 
- *  output_folder: アノテーションデータの出力先フォルダ
+ *  output_folder: アノテーションデータの出力先フォルダ \
 ※　output_folderはなかったら勝手に生成します。
 
 
