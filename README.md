@@ -10,24 +10,25 @@ pip install --upgrade ultralytics
 git clone https://github.com/ryotaema/auto_annotator.git
 
 cd auto_annotator
-mkdir -p model/best_of_model
+mkdir -p model/best_model
 ```
 ## 使用方法
+1. best_modelの中に学習済みモデルを入れてください。
 
-1. model_path、image_folder、output_folderのパスを指定する。
+2. model_path、image_folder、output_folderのパスを指定する。
  *  model_path   : 学習済みモデルのパス  (ex:best.pt)
  *  image_folder : 推論画像のフォルダパス 
  *  output_folder: アノテーションデータの出力先フォルダ \
 ※　output_folderはなかったら勝手に生成します。
 
 
-2. （＃推論実行）のresults = model.predict(image_path, conf = 0.75)で推論の設定 
+3. （＃推論実行）のresults = model.predict(image_path, conf = 0.75)で推論の設定 
 上の例ではconf = 0.75で最小信頼度の閾値を0.75に設定している。 
 以下のサイトに推論の引数がまとめられています。 \
 「Ultralytics YOLO Docs」推論 \
 https://docs.ultralytics.com/ja/modes/predict/#inference-sources:~:text=of%20Results%20objects-,%E6%8E%A8%E8%AB%96,-model.predict() 
 
-3. 実行
+4. 実行
 ```
 python3 auto_labelimg.py
 ```
