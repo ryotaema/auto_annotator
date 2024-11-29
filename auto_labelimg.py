@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 # 学習済みモデルのパスを指定（例: 'best.pt'）
-model_path = 'model/model_of_best/best.pt'      #モデルを変更してください
+model_path = 'model/best_model/best.pt'      #モデルを変更してください
 model = YOLO(model_path,task='detect')
 # 推論する画像が入っているフォルダのパス
 image_folder = 'data/pepper_data/image_1/color' #画像の入っているディレクトリに変更
