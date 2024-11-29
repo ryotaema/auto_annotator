@@ -27,5 +27,7 @@ mkdir -p model/best_of_model
 「Ultralytics YOLO Docs」推論 \
 https://docs.ultralytics.com/ja/modes/predict/#inference-sources:~:text=of%20Results%20objects-,%E6%8E%A8%E8%AB%96,-model.predict() 
 
-3. 各セルを実行
-4. 結果を確認
+3. 実行
+```
+python3 auto_labelimg.py
+```
