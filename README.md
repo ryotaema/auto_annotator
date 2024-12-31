@@ -11,6 +11,7 @@ git clone https://github.com/ryotaema/auto_annotator.git
 
 cd auto_annotator
 mkdir -p model/best_model
+mkdir -p label/output/label_image
 ```
 ## 使用方法
 1. best_modelの中に学習済みモデルを入れてください。
@@ -18,7 +19,8 @@ mkdir -p model/best_model
 2. model_path、image_folder、output_folderのパスを指定する。
  *  model_path   : 学習済みモデルのパス  (ex:best.pt)
  *  image_folder : 推論画像のフォルダパス 
- *  output_folder: アノテーションデータの出力先フォルダ \
+ *  output_folder: アノテーションデータの出力先フォルダ 
+ *  label_image: ラベルのついた画像の出力先\
 ※　output_folderはなかったら勝手に生成します。
 
 
